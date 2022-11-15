@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>enemy.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Enemy::randomChoice' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Enemy::{ctor}</FUNCTION>
+    <DECORATED>??0Enemy@@QAE@AAVTurnManager@@AAVCharacter@@AAVScore@@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>enemy.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Enemy::gameHud' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Enemy::{ctor}</FUNCTION>
+    <DECORATED>??0Enemy@@QAE@AAVTurnManager@@AAVCharacter@@AAVScore@@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

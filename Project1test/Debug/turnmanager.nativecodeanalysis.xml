@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>turnmanager.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TurnManager::currentCharacter' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TurnManager::{ctor}</FUNCTION>
+    <DECORATED>??0TurnManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>turnmanager.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TurnManager::currentCharacterIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TurnManager::{ctor}</FUNCTION>
+    <DECORATED>??0TurnManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test</FILEPATH>
+      <FILENAME>character.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Character::gameState' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Character::{ctor}</FUNCTION>
+    <DECORATED>??0Character@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0HHHAAVTurnManager@@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test</FILEPATH>
+      <FILENAME>character.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(1)' could be '0':  this does not adhere to the specification for the function 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::{ctor}'. </DESCRIPTION>
+    <FUNCTION>Character::GetCharacterAction</FUNCTION>
+    <DECORATED>?GetCharacterAction@Character@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\c++ class\project1test</FILEPATH>
+        <FILENAME>character.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>enemy.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Enemy::randomChoice' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Enemy::{ctor}</FUNCTION>
+    <DECORATED>??0Enemy@@QAE@AAVTurnManager@@AAVCharacter@@AAVScore@@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>gamescreen.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GameScreen::scoreButton' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GameScreen::{ctor}</FUNCTION>
+    <DECORATED>??0GameScreen@@QAE@AAVRenderWindow@sf@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>score.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Score::highscores' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Score::{ctor}</FUNCTION>
+    <DECORATED>??0Score@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>f:\c++ class\project1test\project1test</FILEPATH>
+      <FILENAME>turnmanager.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TurnManager::currentCharacter' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TurnManager::{ctor}</FUNCTION>
+    <DECORATED>??0TurnManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

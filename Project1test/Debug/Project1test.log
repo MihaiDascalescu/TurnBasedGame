@@ -1,0 +1,21 @@
+﻿  button.cpp
+  character.cpp
+  gameObject.cpp
+  main.cpp
+f:\c++ class\project1test\main.cpp(30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  quitButton.cpp
+  scene.cpp
+  sceneHandler.cpp
+  spriteObject.cpp
+  textObject.cpp
+  Enemy.cpp
+  GameHUD.cpp
+  GameScreen.cpp
+  MainMenu.cpp
+  PlayButton.cpp
+  Player.cpp
+  Score.cpp
+  ScoreButton.cpp
+  TurnManager.cpp
+  Generating Code...
+  Project1test.vcxproj -> F:\C++ Class\Project1test\Debug\Project1test.exe
